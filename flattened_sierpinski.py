@@ -37,7 +37,6 @@ def generate_flattened_sierpinski(n):
             if not overlap(x, i):
                 a.append(x)
         i += 1
-        print()
     return a
 
 print(generate_flattened_sierpinski(50))
