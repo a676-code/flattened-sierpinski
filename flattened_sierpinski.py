@@ -40,7 +40,7 @@ def generate_flattened_sierpinski(n):
         print()
     return a
 
-print(generate_flattened_sierpinski(20))
+print(generate_flattened_sierpinski(50))
 
 # Scatter Plots
 n = 10

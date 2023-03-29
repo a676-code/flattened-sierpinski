@@ -1,6 +1,8 @@
 # flattened-sierpinski
 The script `flattened-sierpinski.py` generates a fractal sequence that I discovered while trying to implement [Sigrist's sequence](https://www.youtube.com/watch?v=j0o-pMIR8uk) in Python. I call it the flattened Sierpinski sequence because it looks lke a bunch of flattened Sierpinski triangles. 
 
+output: `[0, 1, 0, 2, 0, 3, 2, 1, 0, 4, 2, 0, 5, 4, 1, 0, 6, 5, 4, 0, 7, 6, 5, 4, 3, 2, 1, 0, 8, 6, 4, 2, 0, 9, 8, 5, 4, 1, 0, 10, 9, 8, 4, 0, 11, 10, 9, 8, 3, 2, 1, 0]`
+
 # Plotting with Seaborn
 ## Basic Scatterplots
 Scatterplot of 10 numbers:
