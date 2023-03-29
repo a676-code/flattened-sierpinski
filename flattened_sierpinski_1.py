@@ -1,7 +1,7 @@
-# flattened_sierpinski.py
+# flattened_sierpinski_1.py
 # Andrew Lounsbury
 # 29/3/23
-# Purpose: generate a particular fractal sequence
+# Purpose: generate a fractal sequence
 
 import pandas as pd
 import seaborn as sns
@@ -29,7 +29,7 @@ def overlap(a, b):
                 return True
     return False
 
-def generate_flattened_sierpinski(n):
+def generate_flattened_sierpinski_1(n):
     a = [0]
     i = 2
     while len(a) < n:
@@ -39,46 +39,47 @@ def generate_flattened_sierpinski(n):
         i += 1
     return a
 
-print(generate_flattened_sierpinski(50))
+print(generate_flattened_sierpinski_1(50))
 
 # Scatter Plots
 n = 10
-sequence = generate_flattened_sierpinski(n)
+sequence = generate_flattened_sierpinski_1(n)
 df = pd.DataFrame(sequence, columns=["Number"])
 df['index'] = [i for i in range(len(sequence))]
 sns.scatterplot(x="index", y='Number', data=df)
 plt.show()
 
 n = 100
-sequence = generate_flattened_sierpinski(n)
+sequence = generate_flattened_sierpinski_1(n)
 df = pd.DataFrame(sequence, columns=["Number"])
 df['index'] = [i for i in range(n)]
 sns.scatterplot(x="index", y='Number', data=df)
 plt.show()
 
 n = 1000
-sequence = generate_flattened_sierpinski(n)
+sequence = generate_flattened_sierpinski_1(n)
 df = pd.DataFrame(sequence, columns=["Number"])
 df['index'] = [i for i in range(len(sequence))]
 sns.scatterplot(x="index", y='Number', data=df)
 plt.show()
 
 n = 10000
-sequence = generate_flattened_sierpinski(n)
+sequence = generate_flattened_sierpinski_1(n)
 df = pd.DataFrame(sequence, columns=["Number"])
 df['index'] = [i for i in range(len(sequence))]
 sns.scatterplot(x="index", y='Number', data=df)
 plt.show()
 
 n = 100000
-sequence = generate_flattened_sierpinski(n)
+sequence = generate_flattened_sierpinski_1(n)
 df = pd.DataFrame(sequence, columns=["Number"])
 df['index'] = [i for i in range(len(sequence))]
 sns.scatterplot(x="index", y='Number', data=df)
 plt.show()
 
+# Scatter plots of Averages
 n = 10
-sequence = generate_flattened_sierpinski(n)
+sequence = generate_flattened_sierpinski_1(n)
 average_sequence = []
 sum = 0
 for i, s in enumerate(sequence):
@@ -92,7 +93,7 @@ sns.scatterplot(x="index", y="Average", data=df_averages)
 plt.show()
 
 n = 100
-sequence = generate_flattened_sierpinski(n)
+sequence = generate_flattened_sierpinski_1(n)
 average_sequence = []
 sum = 0
 for i, s in enumerate(sequence):
@@ -106,7 +107,7 @@ sns.scatterplot(x="index", y="Average", data=df_averages)
 plt.show()
 
 n = 1000
-sequence = generate_flattened_sierpinski(n)
+sequence = generate_flattened_sierpinski_1(n)
 average_sequence = []
 sum = 0
 for i, s in enumerate(sequence):
@@ -120,7 +121,7 @@ sns.scatterplot(x="index", y="Average", data=df_averages)
 plt.show()
 
 n = 10000
-sequence = generate_flattened_sierpinski(n)
+sequence = generate_flattened_sierpinski_1(n)
 average_sequence = []
 sum = 0
 for i, s in enumerate(sequence):
@@ -134,7 +135,7 @@ sns.scatterplot(x="index", y="Average", data=df_averages)
 plt.show()
 
 n = 100000
-sequence = generate_flattened_sierpinski(n)
+sequence = generate_flattened_sierpinski_1(n)
 average_sequence = []
 sum = 0
 for i, s in enumerate(sequence):
