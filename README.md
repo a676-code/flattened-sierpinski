@@ -13,7 +13,7 @@ Scatterplot of 100 numbers: \
 ![100 numbers](images/100.png) \
 Scatterplot of 1000 numbers: \
 ![1000 numbers](images/1000.png)
-Scatterplot of 10000 numbers: \
+Scatterplot of 10,000 numbers: \
 ![10000 numbers](images/10000.png) \
 Scatterplot of 100,000 numbers: \
 ![100,000 numbers](images/100000.png)
@@ -37,8 +37,8 @@ Scatterplot of 10 numbers: \
 Scatterplot of 100 numbers: \
 ![100 numbers](images/100_2.png) \
 Scatterplot of 1000 numbers: \
-![1000 numbers](images/1000_2.png) \ 
-Scatterplot of 10000 numbers: \
+![1000 numbers](images/1000_2.png)
+Scatterplot of 10,000 numbers: \
 ![10000 numbers](images/10000_2.png) \
 Scatterplot of 100,000 numbers: \
 ![100,000 numbers](images/100000_2.png)
