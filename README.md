@@ -38,6 +38,7 @@ Scatterplot of 100 numbers: \
 ![100 numbers](images/100_2.png) \
 Scatterplot of 1000 numbers: \
 ![1000 numbers](images/1000_2.png)
+
 Scatterplot of 10,000 numbers: \
 ![10000 numbers](images/10000_2.png) \
 Scatterplot of 100,000 numbers: \
