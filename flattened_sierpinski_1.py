@@ -39,7 +39,7 @@ def generate_flattened_sierpinski_1(n):
         i += 1
     return a
 
-print(generate_flattened_sierpinski_1(50))
+print(generate_flattened_sierpinski_1(100))
 
 # Scatter Plots
 n = 10
@@ -47,6 +47,7 @@ sequence = generate_flattened_sierpinski_1(n)
 df = pd.DataFrame(sequence, columns=["Number"])
 df['index'] = [i for i in range(len(sequence))]
 sns.scatterplot(x="index", y='Number', data=df)
+plt.savefig("images/10_1.png")
 plt.show()
 
 n = 100
@@ -54,6 +55,7 @@ sequence = generate_flattened_sierpinski_1(n)
 df = pd.DataFrame(sequence, columns=["Number"])
 df['index'] = [i for i in range(n)]
 sns.scatterplot(x="index", y='Number', data=df)
+plt.savefig("images/100_1.png")
 plt.show()
 
 n = 1000
@@ -61,6 +63,7 @@ sequence = generate_flattened_sierpinski_1(n)
 df = pd.DataFrame(sequence, columns=["Number"])
 df['index'] = [i for i in range(len(sequence))]
 sns.scatterplot(x="index", y='Number', data=df)
+plt.savefig("images/1000_1.png")
 plt.show()
 
 n = 10000
@@ -68,6 +71,7 @@ sequence = generate_flattened_sierpinski_1(n)
 df = pd.DataFrame(sequence, columns=["Number"])
 df['index'] = [i for i in range(len(sequence))]
 sns.scatterplot(x="index", y='Number', data=df)
+plt.savefig("images/10000_1.png")
 plt.show()
 
 n = 100000
@@ -75,6 +79,7 @@ sequence = generate_flattened_sierpinski_1(n)
 df = pd.DataFrame(sequence, columns=["Number"])
 df['index'] = [i for i in range(len(sequence))]
 sns.scatterplot(x="index", y='Number', data=df)
+plt.savefig("images/100000_1.png")
 plt.show()
 
 # Scatter plots of Averages
@@ -90,6 +95,7 @@ for i, s in enumerate(sequence):
 df_averages = pd.DataFrame(average_sequence, columns=["Average"])
 df_averages['index'] = [i for i in range(len(sequence))]
 sns.scatterplot(x="index", y="Average", data=df_averages)
+plt.savefig("images/average_10.png")
 plt.show()
 
 n = 100
@@ -104,6 +110,7 @@ for i, s in enumerate(sequence):
 df_averages = pd.DataFrame(average_sequence, columns=["Average"])
 df_averages['index'] = [i for i in range(len(sequence))]
 sns.scatterplot(x="index", y="Average", data=df_averages)
+plt.savefig("images/average_100.png")
 plt.show()
 
 n = 1000
@@ -118,6 +125,7 @@ for i, s in enumerate(sequence):
 df_averages = pd.DataFrame(average_sequence, columns=["Average"])
 df_averages['index'] = [i for i in range(len(sequence))]
 sns.scatterplot(x="index", y="Average", data=df_averages)
+plt.savefig("images/average_1000.png")
 plt.show()
 
 n = 10000
@@ -132,6 +140,7 @@ for i, s in enumerate(sequence):
 df_averages = pd.DataFrame(average_sequence, columns=["Average"])
 df_averages['index'] = [i for i in range(len(sequence))]
 sns.scatterplot(x="index", y="Average", data=df_averages)
+plt.savefig("images/average_10000.png")
 plt.show()
 
 n = 100000
@@ -146,4 +155,5 @@ for i, s in enumerate(sequence):
 df_averages = pd.DataFrame(average_sequence, columns=["Average"])
 df_averages['index'] = [i for i in range(len(sequence))]
 sns.scatterplot(x="index", y="Average", data=df_averages)
+plt.savefig("images/average_100000.png")
 plt.show()

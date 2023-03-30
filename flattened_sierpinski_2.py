@@ -43,7 +43,7 @@ def generate_flattened_sierpinski_2(n):
         i += 1
     return a
 
-print(generate_flattened_sierpinski_2(50))
+print(generate_flattened_sierpinski_2(100))
 
 n = 10
 sequence = generate_flattened_sierpinski_2(n)
