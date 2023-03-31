@@ -24,19 +24,19 @@ Scatterplot of 100,000 numbers:
 
 ## Plotting the Average as $n \to \infty$
 Scatterplot of the first 10 averages:
-![10 averages](images/average_10_1.png)
+![10 averages](images/average_10.png)
 
 Scatterplot of the first 100 averages:
-![100 averages](images/average_100_1.png)
+![100 averages](images/average_100.png)
 
 Scatterplot of the first 1,000 averages:
-![1000 averages](images/average_1000_1.png)
+![1000 averages](images/average_1000.png)
 
 Scatterplot of the first 10,000 averages:
-![10,000 averages](images/average_10000_1.png)
+![10,000 averages](images/average_10000.png)
 
 Scatterplot of the first 100,000 averages:
-![100,000 averages](images/average_100000_1.png)
+![100,000 averages](images/average_100000.png)
 
 # Plotting `flattened-sierpinski-2` with Seaborn
 ## Basic Scatterplots
@@ -55,7 +55,7 @@ Scatterplot of 10,000 numbers:
 Scatterplot of 100,000 numbers:
 ![100,000 numbers](images/100000_2.png)
 
-## Plotting the Average as $ntoinfty$
+## Plotting the Average as $n \to \infty$
 Scatterplot of the first 10 averages:
 ![10 averages](images/average_10_2.png)
 
